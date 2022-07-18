@@ -8,4 +8,21 @@ public class Room {
     private String description;
     private double dailyRate;
     private double dimension; // Square meters
+
+    public Room(int number, String type) {
+        this.number = number;
+        this.type = type;
+    }
+
+    public void setFloor(int floor) {
+        this.floor = floor;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    public void setDimension(double dimension) {
+        this.dimension = dimension;
+    }
 }
